@@ -1,0 +1,9 @@
+E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Utils\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.deps.json
+E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Utils\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.dll
+E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Utils\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.pdb
+E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Utils\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.csprojAssemblyReference.cache
+E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Utils\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.AssemblyInfoInputs.cache
+E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Utils\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.AssemblyInfo.cs
+E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Utils\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.csproj.CoreCompileInputs.cache
+E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Utils\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.dll
+E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Utils\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.pdb

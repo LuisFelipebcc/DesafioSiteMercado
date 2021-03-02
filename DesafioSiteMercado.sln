@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMercado.Desafio.Api", "SiteMercado.Desafio.Api\SiteMercado.Desafio.Api.csproj", "{DC585375-5A09-4497-8824-E614E08D9AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMercado.Desafio.Entities", "SiteMercado.Desafio.Entities\SiteMercado.Desafio.Entities.csproj", "{D47005AB-FC46-411B-99F7-03C4635C3C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMercado.Desafio.Utils", "SiteMercado.Desafio.Utils\SiteMercado.Desafio.Utils.csproj", "{3C183FD8-1F54-46C7-B163-F287A50D07E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMercado.Desafio.Business", "SiteMercado.Desafio.Business\SiteMercado.Desafio.Business.csproj", "{E04A70F4-2617-4D96-93D3-1A438F4AA41A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMercado.Desafio.Repositories", "SiteMercado.Desafio.Repositories\SiteMercado.Desafio.Repositories.csproj", "{A9C52C64-B482-4FB1-B87D-4EC329B8AC90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC585375-5A09-4497-8824-E614E08D9AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC585375-5A09-4497-8824-E614E08D9AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC585375-5A09-4497-8824-E614E08D9AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC585375-5A09-4497-8824-E614E08D9AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47005AB-FC46-411B-99F7-03C4635C3C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47005AB-FC46-411B-99F7-03C4635C3C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47005AB-FC46-411B-99F7-03C4635C3C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47005AB-FC46-411B-99F7-03C4635C3C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C183FD8-1F54-46C7-B163-F287A50D07E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C183FD8-1F54-46C7-B163-F287A50D07E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C183FD8-1F54-46C7-B163-F287A50D07E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C183FD8-1F54-46C7-B163-F287A50D07E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04A70F4-2617-4D96-93D3-1A438F4AA41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04A70F4-2617-4D96-93D3-1A438F4AA41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04A70F4-2617-4D96-93D3-1A438F4AA41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04A70F4-2617-4D96-93D3-1A438F4AA41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C52C64-B482-4FB1-B87D-4EC329B8AC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C52C64-B482-4FB1-B87D-4EC329B8AC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C52C64-B482-4FB1-B87D-4EC329B8AC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C52C64-B482-4FB1-B87D-4EC329B8AC90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05A4B261-4017-4273-B744-DDE400EB1CD5}
+	EndGlobalSection
+EndGlobal

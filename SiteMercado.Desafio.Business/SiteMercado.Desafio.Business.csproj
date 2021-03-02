@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SiteMercado.Desafio.Entities\SiteMercado.Desafio.Entities.csproj" />
+    <ProjectReference Include="..\SiteMercado.Desafio.Repositories\SiteMercado.Desafio.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
