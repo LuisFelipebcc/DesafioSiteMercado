@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using SiteMercado.Desafio.Business;
@@ -9,10 +10,26 @@ using SiteMercado.Desafio.Utils.Models;
 namespace SiteMercado.Desafio.Api.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
     public class ProdutoController : APIController
     {
         public ProdutoController(IConfiguration configuration) : base(configuration) { }
+
+
+        [HttpGet("GetById/{id}")]
+        [AllowAnonymous]
+        [ProducesResponseType(typeof(ActionResult<ResultModel<Produto>>), 200)]
+        public ActionResult<ResultModel<Produto>> GetById(int id)
+        {
+            using (var business = new ProdutoBusiness())
+            {
+                var data = business.Get(id);
+
+                if (data.Items[0] == null)
+                    return NotFound();
+
+                return data;
+            }
+        }
 
         /// <summary>
         /// Endpoint para obter lista de Produtos
@@ -22,29 +39,27 @@ namespace SiteMercado.Desafio.Api.Controllers
         [HttpGet]
         [AllowAnonymous]
         [Route("getList")]
-        [Produces("application/json")]
         [ProducesResponseType(typeof(ActionResult<ResultModel<Produto>>), 200)]
-        public ActionResult<ResultModel<Produto>> GetList([FromQuery]ProdutoFilter filter)
+        public ActionResult<ResultModel<Produto>> GetList([FromQuery] ProdutoFilter filter)
         {
             using (var business = new ProdutoBusiness())
             {
                 filter.ProcessQueryString(Request.Query);
                 var data = business.GetList(filter);
-                return Ok(data);
+                return data;
             }
         }
 
         /// <summary>
         /// EndPoint para inserir um novo Produto
         /// </summary>
-        /// <param name="usuario">Objeto para inserir o Produto</param>
+        /// <param name="produto">Objeto para inserir o Produto</param>
         /// <returns>Confirmação/Resultado da inserção do Produto</returns>
         [HttpPost]
         [AllowAnonymous]
         [Route("Insert")]
-        [Produces("application/json")]
         [ProducesResponseType(typeof(ActionResult<ResultModel<Produto>>), 200)]
-        public ActionResult<ResultModel<Produto>> Insert(Produto produto)
+        public ActionResult<ResultModel<Produto>> Insert([FromBody] Produto produto)
         {
             using (var business = new ProdutoBusiness())
             {
@@ -58,17 +73,16 @@ namespace SiteMercado.Desafio.Api.Controllers
         /// </summary>
         /// <param name="produto">Objeto para alterer o Produto</param>
         /// <returns>Confirmação/Resultado da altereção do Produto</returns>
-        [HttpPost]
+        [HttpPut]
         [AllowAnonymous]
         [Route("Update")]
-        [Produces("application/json")]
         [ProducesResponseType(typeof(ActionResult<ResultModel<Produto>>), 200)]
-        public ActionResult<ResultModel<Produto>> Update(Produto produto)
+        public ActionResult<ResultModel<Produto>> Update([FromBody] Produto produto)
         {
             using (var business = new ProdutoBusiness())
             {
                 var data = business.Update(produto);
-                return Ok(data);
+                return data;
             }
         }
 
@@ -79,14 +93,13 @@ namespace SiteMercado.Desafio.Api.Controllers
         /// <returns>Confirmação/Resultado da Exclusão do Produto</returns>
         [HttpDelete("Delete/{id}")]
         [AllowAnonymous]
-        [Produces("application/json")]
         [ProducesResponseType(typeof(ActionResult<ResultModel<Produto>>), 200)]
-        public ActionResult<ResultModel<Produto>> Delete(long id)
+        public ActionResult<ResultModel<Produto>> Delete(int id)
         {
             using (var business = new ProdutoBusiness())
             {
                 var data = business.Delete(new Produto() { Id = id });
-                return Ok(data);
+                return data;
             }
         }
 

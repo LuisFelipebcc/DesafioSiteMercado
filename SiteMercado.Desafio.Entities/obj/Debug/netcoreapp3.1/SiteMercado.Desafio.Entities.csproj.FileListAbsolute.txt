@@ -10,3 +10,15 @@ E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Entities\obj\Debug
 E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Entities\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.csproj.CopyComplete
 E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Entities\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.dll
 E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Entities\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.pdb
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.deps.json
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.dll
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.pdb
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.dll
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.pdb
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.csprojAssemblyReference.cache
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.AssemblyInfoInputs.cache
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.AssemblyInfo.cs
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.csproj.CoreCompileInputs.cache
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.csproj.CopyComplete
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.dll
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Entities\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.pdb

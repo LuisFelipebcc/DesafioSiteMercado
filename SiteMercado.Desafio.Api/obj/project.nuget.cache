@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vBEk/U2fiAvXBEUFItxQd51PliAk5F3gsiPMoOsiHwaohrtAU4QKEWYeNDNVFUI2tZ7luKEl2Ejljg1Kk/eVWg==",
+  "dgSpecHash": "8FLjG4bvyxttigFqSaMfe2eeMFIA9WaMMY62PZgQnXji8F5XcLHOozBkhlqC6v8L7T2U6LplW4437236/AFMIA==",
   "success": true,
   "projectFilePath": "E:\\Repositorio\\DesafioSiteMercado\\SiteMercado.Desafio.Api\\SiteMercado.Desafio.Api.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\Luis Felipe\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Luis Felipe\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\Luis Felipe\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Luis Felipe\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.3\\microsoft.aspnetcore.identity.ui.5.0.3.nupkg.sha512",
     "C:\\Users\\Luis Felipe\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\2.2.0\\microsoft.aspnetcore.jsonpatch.2.2.0.nupkg.sha512",
     "C:\\Users\\Luis Felipe\\.nuget\\packages\\microsoft.aspnetcore.localization\\2.2.0\\microsoft.aspnetcore.localization.2.2.0.nupkg.sha512",
     "C:\\Users\\Luis Felipe\\.nuget\\packages\\microsoft.aspnetcore.mvc\\2.2.0\\microsoft.aspnetcore.mvc.2.2.0.nupkg.sha512",

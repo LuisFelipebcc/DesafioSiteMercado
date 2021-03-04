@@ -10,7 +10,7 @@ namespace SiteMercado.Desafio.Entities.Filters
             ResultPagesModel = new ResultPagesModel
             {
                 Offset = 10,
-                Actual = 1
+                Actual = 0
             };
         }
 

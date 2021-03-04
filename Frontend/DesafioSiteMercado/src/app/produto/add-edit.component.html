@@ -1,0 +1,60 @@
+﻿<h1 *ngIf="isAddMode">Adicionar Produto</h1>
+<h1 *ngIf="!isAddMode">Editar Produto</h1>
+<form [formGroup]="formCadProduto" (ngSubmit)="onSubmit()">
+  <input type="hidden" formControlName="id">
+  <div class="form-row">
+    <div class="form-group col-4">
+      <label>Nome</label>
+      <input type="text" formControlName="nome" class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && f.nome.errors }" />
+      <div *ngIf="submitted && f.nome.errors" class="invalid-feedback">
+        <div *ngIf="f.nome.errors.required">Nome is required</div>
+      </div>
+    </div>
+    <div class="form-group col-4">
+      <label>Valor de Venda</label>
+      <input currencyMask type="number" name="valorVenda" formControlName="valorVenda" class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && f.valorVenda.errors }" />
+      <div *ngIf="submitted && f.valorVenda.errors" class="invalid-feedback">
+        <div *ngIf="f.valorVenda.errors.required">Valor de Venda is required</div>
+      </div>
+    </div>
+    <!-- <div class="form-group col-4">
+            <label>Imagem</label>
+            <input type="text" formControlName="imagem" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.imagem.errors }" />
+            <div *ngIf="submitted && f.imagem.errors" class="invalid-feedback">
+                <div *ngIf="f.imagem.errors.required">Imagem is required</div>
+            </div>
+        </div> -->
+    <div class="form-group col-4">
+      <fieldset class="form-group">
+        <label>Upload foto</label>
+        {{imageError}}
+        <div class="custom-file fileInputProfileWrap">
+          <input type="file" [src]="cardImageBase64" class="form-control" (change)="fileChangeEvent($event)"
+            class="fileInputProfile">
+          <div class="img-space">
+
+            <ng-container *ngIf="isImageSaved; else elseTemplate">
+              <img [src]="cardImageBase64" />
+            </ng-container>
+            <ng-template #elseTemplate>
+              <img [src]="cardImageBase64" class="img-responsive">
+            </ng-template>
+
+          </div>
+
+        </div>
+      </fieldset>
+    </div>
+
+  </div>
+  <div class="form-group">
+    <button [disabled]="loading" class="btn btn-primary">
+      <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+      Save
+    </button>
+    <a class="btn btn-danger" (click)="removeImage()" *ngIf="isImageSaved">Remove</a>
+    <a routerLink="/produto" class="btn btn-link">Cancel</a>
+  </div>
+</form>

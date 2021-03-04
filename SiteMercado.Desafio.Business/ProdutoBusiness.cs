@@ -24,7 +24,7 @@ namespace SiteMercado.Desafio.Business
 
         public ResultModel<Produto> Get(long id)
         {
-            return this.GetList(new Entities.Filters.ProdutoFilter() { Id = id });
+            return UnitOfWork.ProdutoRepository.GetById(new Entities.Filters.ProdutoFilter() { Id = id });
         }
 
         public ResultModel<Produto> GetList(Entities.Filters.ProdutoFilter filter, string sortDir = "asc", int sortCol = 0)
@@ -122,7 +122,9 @@ namespace SiteMercado.Desafio.Business
             {
                 var resultModel = new ResultModel<Produto>(true);
 
-                var data = UnitOfWork.ProdutoRepository.Delete(produto);
+                Produto prod = this.Get(produto.Id).Items[0];
+
+                var data = UnitOfWork.ProdutoRepository.Delete(prod);
                 if (data is null)
                 {
                     resultModel.IsOk = false;
@@ -166,15 +168,15 @@ namespace SiteMercado.Desafio.Business
                 {
                     produto.Nome = produto.Nome;
                     produto.ValorVenda = produto.ValorVenda;
-                    produto.Image = produto.Image;
+                    produto.Imagem = produto.Imagem;
                 }
                 else
                 {
                     item.Nome = produto.Nome;
                     item.ValorVenda = produto.ValorVenda;
 
-                    if (produto.Image != null)
-                        item.Image = produto.Image;
+                    if (produto.Imagem != null)
+                        item.Imagem = produto.Imagem;
 
                     data = UnitOfWork.ProdutoRepository.Update(produto);
                 }

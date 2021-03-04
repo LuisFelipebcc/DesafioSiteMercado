@@ -12,3 +12,17 @@ E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Repositories\bin\D
 E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Repositories\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.csproj.CopyComplete
 E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Repositories\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.dll
 E:\Repositorio\DesafioSiteMercado\Backend\SiteMercado.Desafio.Repositories\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.pdb
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.deps.json
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.dll
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.pdb
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.dll
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.dll
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Entities.pdb
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\bin\Debug\netcoreapp3.1\SiteMercado.Desafio.Utils.pdb
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.csprojAssemblyReference.cache
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.AssemblyInfoInputs.cache
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.AssemblyInfo.cs
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.csproj.CoreCompileInputs.cache
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.csproj.CopyComplete
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.dll
+E:\Repositorio\DesafioSiteMercado\SiteMercado.Desafio.Repositories\obj\Debug\netcoreapp3.1\SiteMercado.Desafio.Repositories.pdb

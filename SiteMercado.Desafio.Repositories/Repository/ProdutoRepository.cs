@@ -12,9 +12,19 @@ namespace SiteMercado.Desafio.Repositories.Repository
     {
         public ProdutoRepository(DbContext context) : base(context) { }
 
+        public ResultModel<Produto> GetById(ProdutoFilter filter)
+        {
+            var query = Search(filter.Id);
+
+            var data = new ResultModel<Produto>();
+            data.Items.Add(query);
+            
+            return data;
+        }
+
         public ResultModel<Produto> GetList(ProdutoFilter filter, string sortDir = "asc", int sortCol = 0)
         {
-            var query = GetList(x => (EF.Functions.Like(x.Nome, $"%{filter.search}%")));
+            var query = GetAll();
 
 
             if (sortDir.ToLower() == "asc")
